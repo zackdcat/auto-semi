@@ -1,61 +1,54 @@
-# semi-auto README
+# semi-auto
 
-This is the README for your extension "semi-auto". After writing up a brief description, we recommend including the following sections.
+Automatically adds a semicolon when you press **Enter** while coding.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+* Automatically adds `;` before creating a new line.
+* Hold **Ctrl** while pressing **Enter** to skip the semicolon.
+* Supports multiple programming languages.
+* No configuration required.
 
-For example if there is an image subfolder under your extension project workspace:
+## Supported Languages
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+* JavaScript
+* TypeScript
+* Java
+* C
+* C++
+* C#
+* PHP
+* Swift
+* Kotlin
+* Dart
+* Rust
+* Go
+* Objective-C
+* SQL
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+No additional requirements or dependencies.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+This extension does not add any VS Code settings.
 
-For example:
+It provides two commands:
 
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+* `semi-auto.onEnter`: Adds a semicolon before creating a new line when **Enter** is pressed.
+* `semi-auto.onCtrlEnter`: Creates a new line without adding a semicolon when **Ctrl + Enter** is pressed.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+If you find a bug or a language that isn't working correctly, please open an issue on GitHub.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of semi-colon
+Initial release of semi-auto.
 
-## Following extension guidelines
+## Contributing
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Open an issue or submit a pull request on [GitHub](https://github.com/zackdcat/auto-semi).
