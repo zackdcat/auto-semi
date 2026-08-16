@@ -45,9 +45,9 @@ If you find a bug or a language that isn't working correctly, please open an iss
 
 ## Release Notes
 
-### 1.0.0
+### 2.0.0
 
-Initial release of semi-auto.
+Now semi-colons will not be added if there is already a semi colon or if there is nothing on the line.
 
 ## Contributing
 

@@ -7,12 +7,13 @@
   "publisher": "zackdcat",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zackdcat/auto-semi.git"
+    "url": "https://github.com/zackdcat/auto-semi"
   },
   "engines": {
-    "vscode": "^1.125.0"
+    "vscode": "^1.85.0"
   },
   "categories": [
+    "Programming Languages",
     "Other"
   ],
   "activationEvents": [],
@@ -51,8 +52,8 @@
   },
   "devDependencies": {
     "@types/mocha": "^10.0.10",
-    "@types/node": "24.x",
-    "@types/vscode": "^1.125.0",
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.85.0",
     "@vscode/test-cli": "^0.0.15",
     "@vscode/test-electron": "^3.0.0",
     "eslint": "^10.5.0",
